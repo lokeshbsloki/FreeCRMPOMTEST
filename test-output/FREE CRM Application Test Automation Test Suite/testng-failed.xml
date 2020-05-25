@@ -6,17 +6,10 @@
   </listeners>
   <test thread-count="5" name="Free CRM App Test Cases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="CrmLogoDisplayed"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
       <class name="com.crm.qa.testcases.ContactsPageTest">
         <methods>
           <include name="setUp"/>
-          <include name="validateCreateNewContactTest" invocation-numbers="2"/>
+          <include name="selectMultipleContactsByNameTest"/>
           <include name="tearDown"/>
           <include name="selectContactsByNameTest"/>
         </methods>
