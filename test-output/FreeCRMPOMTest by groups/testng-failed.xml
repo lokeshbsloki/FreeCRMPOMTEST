@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRMPOMTest by groups]">
+  <test thread-count="5" name="GRP-lokesh(failed)">
+    <groups>
+      <run>
+        <include name="lokesh"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="createNewContactTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- GRP-lokesh(failed) -->
+</suite> <!-- Failed suite [FreeCRMPOMTest by groups] -->
